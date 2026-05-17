@@ -1,0 +1,79 @@
+html {
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    background: #007198;
+    text-align: center;
+    line-height: 16px;
+    margin: auto;
+    height: 64px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    color: white;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    background: rgb(32, 32, 32);
+}
+
+.game_section {
+    width: 90%;
+    display: flexbox;
+    border-radius: 18px;
+    border: 2px #71cbf4 solid;
+    margin: 96px auto;
+    justify-content: center;
+}
+
+.game_section_1 {
+    padding: 1px;
+    display: flex;
+    margin: 8px auto;
+    justify-content: center;
+    gap: 8px;
+}
+
+.word_box {
+    width: 64px;
+    height: 64px;
+    background: rgb(64, 64, 64);
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+}
+
+.input_text_section {
+    display: flex;
+    padding: 4px;
+    margin: auto;
+    justify-content: center;
+    gap: 8px;
+    display: flex;
+}
+
+#input_text {
+    color: white;
+    width: 256px;
+    height: 32px;
+    font-size: 32px;
+    text-align: center;
+    background: rgb(128,128,128);
+    border-radius: 24px;
+}
+
+button {
+    background: #007198;
+    text-align: center;
+    border: solid 0px black;
+    color: white;
+    border-radius: 24px;
+    width: 64px;
+    height: 38px;
+    font-size: 20px;
+}
