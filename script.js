@@ -34,7 +34,7 @@ function input_text() {
 
         if (word_inputed == actual_word) {
                 win_fail = "WIN"
-                alert(`Corret awnser is: ${actual_word}\nYOU ${win_fail}`)
+                alert(`Corret ansWer is: ${actual_word}\nYOU ${win_fail}`)
                 actual_index = 0
                 end_game()
             }
@@ -43,7 +43,7 @@ function input_text() {
             if (word_inputed == actual_word) {
                 win_fail = "WIN"
             } else {
-                win_fail = "FAIL"
+                win_fail = "FAILED"
             }
 
             alert(`Corret awnser is: ${actual_word}\nYOU ${win_fail}`)
