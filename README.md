@@ -1,4 +1,5 @@
 # Termo (Game)
 
-🌐 [Termo][link]
+🌐[Termo][link]
+
 [link]: https://rian-batista-rx4n.github.io/termo/
